@@ -15,6 +15,10 @@ function SideBar() {
       label: "Buttons",
       path: "/buttons",
     },
+    {
+      label: "Table",
+      path: "/table",
+    },
   ];
 
   const renderedLinks = links.map((link) => {
