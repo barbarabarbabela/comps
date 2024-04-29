@@ -23,6 +23,11 @@ function TablePage() {
       color: "bg-green-500",
       score: 4,
     },
+    {
+      name: "Cherry",
+      color: "bg-red-700",
+      score: 2.5,
+    },
   ];
 
   const config = [
@@ -39,6 +44,11 @@ function TablePage() {
       label: "Score",
       render: (fruit) => fruit.score,
       sortValue: (fruit) => fruit.score,
+    },
+    {
+      label: "Score Squared",
+      render: (fruit) => fruit.score ** 2,
+      sortValue: (fruit) => fruit.score ** 2,
     },
   ];
 
